@@ -1,0 +1,19 @@
+
+#play_now{
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+    font-weight:bolder;
+    position:absolute;
+    transition:color 0.2s ease-in-out;
+    cursor:pointer;
+}
+
+@media screen and (max-width:800px){
+    #play_now{
+        font-size: 25px;
+        padding: 6px 30px;
+    }
+
+}
